@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+   margin-left: 20%;
+   margin-right: 20%;
+    margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+button{
+  max-width: 100px;
+}
+.input{
+  max-width: 250px;
+}
+textarea.words{
+  resize: none;
+}
